@@ -17,10 +17,26 @@
 
     <div class="mt-3">
         <label class="form-label">Nội dung</label>
-        <input type="text" class="form-control" asp-for="Content" />
+        <textarea id="editor" asp-for="Content"></textarea>
     </div>
 
     <div class="mt-3">
         <button type="submit" class="btn btn-secondary">Lưu bài viết</button>
     </div>
 </form>
+
+<div class="text-center">
+    
+    <script src="~/assets/vendor/ckeditor5-build-classic-41.1.0/ckeditor5-build-classic/ckeditor.js"></script>
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editor'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+</div>
+
+
+
+        

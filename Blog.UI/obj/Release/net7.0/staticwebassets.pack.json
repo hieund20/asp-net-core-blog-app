@@ -1,0 +1,585 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\Blog.UI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Blog.UI.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\LICENSE.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\README.md",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\README.md"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\ckeditor.d.ts",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\ckeditor.d.ts"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\ckeditor.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\ckeditor.js.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\index.html",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\index.html"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\sample\\css\\sample.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\sample\\css\\sample.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\sample\\img\\bg.png",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\sample\\img\\bg.png"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\sample\\img\\github.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\sample\\img\\github.svg"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\sample\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\sample\\img\\logo.svg"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\sample\\img\\umbrellas.jpg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\sample\\img\\umbrellas.jpg"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\af.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\af.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ar.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ar.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ast.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ast.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\az.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\az.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\bg.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\bg.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\bn.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\bn.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\bs.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\bs.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ca.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ca.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\cs.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\cs.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\da.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\da.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\de-ch.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\de-ch.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\de.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\de.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\el.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\el.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\en-au.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\en-au.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\en-gb.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\en-gb.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\eo.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\eo.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\es-co.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\es-co.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\es.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\es.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\et.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\et.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\eu.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\eu.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\fa.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\fa.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\fi.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\fi.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\fr.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\fr.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\gl.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\gl.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\gu.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\gu.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\he.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\he.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\hi.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\hi.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\hr.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\hr.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\hu.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\hu.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\hy.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\hy.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\id.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\id.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\it.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\it.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ja.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ja.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\jv.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\jv.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\km.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\km.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\kn.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\kn.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ko.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ko.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ku.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ku.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\lt.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\lt.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\lv.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\lv.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ms.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ms.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\nb.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\nb.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ne.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ne.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\nl.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\nl.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\no.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\no.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\oc.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\oc.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\pl.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\pl.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\pt-br.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\pt-br.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\pt.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\pt.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ro.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ro.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ru.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ru.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\si.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\si.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sk.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sk.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sl.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sl.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sq.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sq.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sr-latn.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sr-latn.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sr.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sr.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sv.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\sv.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\th.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\th.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\tk.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\tk.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\tr.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\tr.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\tt.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\tt.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ug.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ug.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\uk.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\uk.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ur.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\ur.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\uz.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\uz.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\vi.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\vi.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\zh-cn.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\zh.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-build-classic-41.1.0\\ckeditor5-build-classic\\translations\\zh.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.Blog.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.Blog.UI.props",
+      "PackagePath": "build\\Blog.UI.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Blog.UI.props",
+      "PackagePath": "buildMultiTargeting\\Blog.UI.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.Blog.UI.props",
+      "PackagePath": "buildTransitive\\Blog.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
