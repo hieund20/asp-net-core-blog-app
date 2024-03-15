@@ -1,0 +1,7 @@
+D:\Blog\Blog\Blog.UI\obj\Release\net7.0\PubTmp\Out\Blog.UI.exe
+D:\Blog\Blog\Blog.UI\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+D:\Blog\Blog\Blog.UI\obj\Release\net7.0\PubTmp\Out\appsettings.json
+D:\Blog\Blog\Blog.UI\obj\Release\net7.0\PubTmp\Out\Blog.UI.dll
+D:\Blog\Blog\Blog.UI\obj\Release\net7.0\PubTmp\Out\Blog.UI.deps.json
+D:\Blog\Blog\Blog.UI\obj\Release\net7.0\PubTmp\Out\Blog.UI.runtimeconfig.json
+D:\Blog\Blog\Blog.UI\obj\Release\net7.0\PubTmp\Out\Blog.UI.pdb

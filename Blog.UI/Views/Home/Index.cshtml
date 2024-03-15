@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Blog.UI.Models.DTO.PostDto>
+
+@{
+}
+
+<div class="posts-contaner d-flex flex-wrap gap-5">
+    @foreach (var post in Model)
+    {
+        <div class="card" style="width: 30%;">
+            <div class="card-body">
+                <h5 class="card-title">@post.Title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@post.CreatedDate.ToLocalTime()</h6>
+                <p class="card-text">@Truncate(@post.Content, 100)</p>
+                <a class="card-link" 
+                   asp-controller="Posts"
+                   asp-action="Detail"
+                   asp-route-id="@post.PostId">Xem bài viết</a>
+            </div>
+        </div>
+    }
+</div>
+
+
+@functions {
+    public string Truncate(string input, int length)
+    {
+        if (input.Length <= length)
+        {
+            return input;
+        }
+        else
+        {
+            return input.Substring(0, length) + "...";
+        }
+    }
+}
