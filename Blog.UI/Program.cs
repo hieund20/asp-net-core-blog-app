@@ -1,3 +1,5 @@
+using Blog.UI.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,6 +15,8 @@ builder.Services.AddSession(options =>
 });
 
 builder.Services.AddHttpContextAccessor();
+
+builder.Services.Configure<ApiSettings>(builder.Configuration.GetSection("ApiSettings"));
 
 var app = builder.Build();
 

@@ -3,4 +3,10 @@
   <parameter name="IIS Web Application Name" description="" value="hieunotesapi" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Blog\\Blog\\Blog\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
   </parameter>
+  <parameter name="Blog.API.Data.BlogAuthDBContext" description="" value="Server=tcp:hieunotes.database.windows.net,1433;Initial Catalog=blog;Persist Security Info=False;User ID=hieund200301;Password=!Duchieu200301;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\Blog\\Blog\\Blog\\obj\\Release\\net7\.0\\PubTmp\\EFSQLScripts\\Blog\.API\.Data\.BlogAuthDBContext\.sql$" />
+  </parameter>
+  <parameter name="Blog.API.Data.BlogDBContext" description="" value="Server=tcp:hieunotes.database.windows.net,1433;Initial Catalog=blog;Persist Security Info=False;User ID=hieund200301;Password=!Duchieu200301;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\Blog\\Blog\\Blog\\obj\\Release\\net7\.0\\PubTmp\\EFSQLScripts\\Blog\.API\.Data\.BlogDBContext\.sql$" />
+  </parameter>
 </parameters>

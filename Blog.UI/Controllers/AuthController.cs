@@ -3,16 +3,20 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using System.Text;
 using Blog.UI.Models.DTO;
+using Blog.UI.Models;
+using Microsoft.Extensions.Options;
 
 namespace Blog.UI.Controllers
 {
     public class AuthController : Controller
     {
         private readonly IHttpClientFactory httpClientFactory;
+        private readonly IOptions<ApiSettings> apiSettings;
 
-        public AuthController(IHttpClientFactory httpClientFactory)
+        public AuthController(IHttpClientFactory httpClientFactory, IOptions<ApiSettings> apiSettings)
         {
             this.httpClientFactory = httpClientFactory;
+            this.apiSettings = apiSettings;
         }
 
         [HttpGet]
@@ -29,7 +33,7 @@ namespace Blog.UI.Controllers
             var httpRequestMessage = new HttpRequestMessage()
             {
                 Method = HttpMethod.Post,
-                RequestUri = new Uri("https://localhost:7203/api/Auth/Login"),
+                RequestUri = new Uri($"{apiSettings.Value.ProductionUrl}/Auth/Login"),
                 Content = new StringContent(JsonSerializer.Serialize(loginRequest), Encoding.UTF8, "application/json")
             };
 
@@ -40,7 +44,7 @@ namespace Blog.UI.Controllers
 
             if (response is not null)
             {
-                var httpUserResponseMessage = await client.GetFromJsonAsync<IdentityUser>($"https://localhost:7203/api/Users/GetUserFromToken?jwtToken={response.JwtToken}");
+                var httpUserResponseMessage = await client.GetFromJsonAsync<IdentityUser>($"{apiSettings.Value.ProductionUrl}/Users/GetUserFromToken?jwtToken={response.JwtToken}");
 
                 if (httpUserResponseMessage is not null)
                 {
@@ -51,7 +55,7 @@ namespace Blog.UI.Controllers
 
 
                     //Call API lấy role data từ user, lưu trong Session
-                    var httpRolesResponseMessage = await client.GetFromJsonAsync<List<string>>($"https://localhost:7203/api/Users/GetRolesFromToken?jwtToken={response.JwtToken}");
+                    var httpRolesResponseMessage = await client.GetFromJsonAsync<List<string>>($"{apiSettings.Value.ProductionUrl}/Users/GetRolesFromToken?jwtToken={response.JwtToken}");
                     if (httpRolesResponseMessage is not null)
                     {
                         HttpContext.Session.SetString("CurrentUserRoles", JsonSerializer.Serialize(httpRolesResponseMessage));

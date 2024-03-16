@@ -3,16 +3,19 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using System.Text;
 using Blog.UI.Models.DTO;
+using Microsoft.Extensions.Options;
 
 namespace Blog.UI.Controllers
 {
     public class CommentsController : Controller
     {
         private readonly IHttpClientFactory httpClientFactory;
+        private readonly IOptions<ApiSettings> apiSettings;
 
-        public CommentsController(IHttpClientFactory httpClientFactory)
+        public CommentsController(IHttpClientFactory httpClientFactory, IOptions<ApiSettings> apiSettings)
         {
             this.httpClientFactory = httpClientFactory;
+            this.apiSettings = apiSettings;
         }
 
         [HttpGet]
@@ -29,7 +32,7 @@ namespace Blog.UI.Controllers
             var httpRequestMessage = new HttpRequestMessage()
             {
                 Method = HttpMethod.Post,
-                RequestUri = new Uri("https://localhost:7203/api/Comments"),
+                RequestUri = new Uri($"{apiSettings.Value.ProductionUrl}/Comments"),
                 Content = new StringContent(JsonSerializer.Serialize(model), Encoding.UTF8, "application/json")
             };
 
@@ -55,7 +58,7 @@ namespace Blog.UI.Controllers
                 //Get All Regions from Web API
                 var client = httpClientFactory.CreateClient();
 
-                var httpResponseMessage = await client.GetAsync($"https://localhost:7203/api/Comments/GetByPostId/{PostId}");
+                var httpResponseMessage = await client.GetAsync($"{apiSettings.Value.ProductionUrl}/Comments/GetByPostId/{PostId}");
 
                 httpResponseMessage.EnsureSuccessStatusCode();
 

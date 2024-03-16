@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4X9/fhwgIUajcvlcleVL/AAAAAACAAAAAAAQZgAAAAEAACAAAACMU6nLolbb2yIRJ5IlqVuyJDiqKh45+kWrwXug2VdXrgAAAAAOgAAAAAIAACAAAADvkkU7fMfPG2oMrRCeAiLTvMrxK7l2wWSLwQzsK4AV4YAAAAD8jgX+aRk9MvskP6XpYdptVLfF9ZA1+kY0flNhqRwwvKd4VfHDT8UJRfhBOcyz02bZSZyhezjROIwI/M5NQnu5lYVG31y4cln26GG8q2X/cw1SW/csminlYBiRj3d/e88t+SZ7sTJRNKl2g++8KoWixEboCToBlQCyQ912wmIIqkAAAAB4ixcPFbXFFkTjZP3IQdlyAIHeXQNLJmU+kVXnnlfoy6OPSQyj+kXGtlWrKv/zQVPVWe0t4xl+Nxhd3z268IDi</EncryptedPassword>
+    <History>True|2024-03-16T08:34:25.2853757Z;False|2024-03-16T15:29:09.3145417+07:00;False|2024-03-16T15:27:03.8978157+07:00;False|2024-03-16T15:25:35.5437312+07:00;True|2024-03-16T15:05:07.4532674+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="BlogAuthDBContextString">
+      <Value>Server=tcp:hieunotes.database.windows.net,1433%3bInitial Catalog=blog%3bPersist Security Info=False%3bUser ID=hieund200301%3bPassword=!Duchieu200301%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="BlogDBContextString">
+      <Value>Server=tcp:hieunotes.database.windows.net,1433%3bInitial Catalog=blog%3bPersist Security Info=False%3bUser ID=hieund200301%3bPassword=!Duchieu200301%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Blog.API.Data.BlogAuthDBContext">
+      <Value>Server=tcp:hieunotes.database.windows.net,1433%3bInitial Catalog=blog%3bPersist Security Info=False%3bUser ID=hieund200301%3bPassword=!Duchieu200301%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+    <EFMigrations Include="Blog.API.Data.BlogDBContext">
+      <Value>Server=tcp:hieunotes.database.windows.net,1433%3bInitial Catalog=blog%3bPersist Security Info=False%3bUser ID=hieund200301%3bPassword=!Duchieu200301%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

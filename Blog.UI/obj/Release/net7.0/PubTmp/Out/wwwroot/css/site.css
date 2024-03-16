@@ -21,6 +21,13 @@ body {
   margin-bottom: 60px;
 }
 
+.posts-contaner .card {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.comment {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
 
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {

@@ -82,3 +82,4 @@ D:\Blog\Blog\Blog\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFramework
 D:\Blog\Blog\Blog\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 D:\Blog\Blog\Blog\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Blog\Blog\Blog\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Blog\Blog\Blog\obj\Debug\net7.0\Blog.API.sourcelink.json

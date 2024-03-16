@@ -2,16 +2,19 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Blog.UI.Models.DTO;
+using Microsoft.Extensions.Options;
 
 namespace Blog.UI.Controllers
 {
     public class HomeController : Controller
     {
         private readonly IHttpClientFactory httpClientFactory;
+        private readonly IOptions<ApiSettings> apiSettings;
 
-        public HomeController(IHttpClientFactory httpClientFactory)
+        public HomeController(IHttpClientFactory httpClientFactory, IOptions<ApiSettings> apiSettings)
         {
             this.httpClientFactory = httpClientFactory;
+            this.apiSettings = apiSettings;
         }
 
         public async Task<IActionResult> Index()
@@ -22,7 +25,7 @@ namespace Blog.UI.Controllers
             List<PostDto> response = new List<PostDto>();
             try
             {
-                var httpResponseMessage = await client.GetAsync($"https://localhost:7203/api/Posts");
+                var httpResponseMessage = await client.GetAsync($"{apiSettings.Value.ProductionUrl}/Posts");
 
                 httpResponseMessage.EnsureSuccessStatusCode();
 

@@ -3,16 +3,19 @@ using Blog.UI.Models.DTO;
 using System.Text.Json;
 using System.Text;
 using Blog.UI.Models;
+using Microsoft.Extensions.Options;
 
 namespace Blog.UI.Controllers
 {
     public class PostsController : Controller
     {
         private readonly IHttpClientFactory httpClientFactory;
+        private readonly IOptions<ApiSettings> apiSettings;
 
-        public PostsController(IHttpClientFactory httpClientFactory)
+        public PostsController(IHttpClientFactory httpClientFactory, IOptions<ApiSettings> apiSettings)
         {
             this.httpClientFactory = httpClientFactory;
+            this.apiSettings = apiSettings;
         }
 
         public async Task<IActionResult> Index()
@@ -23,7 +26,7 @@ namespace Blog.UI.Controllers
                 //Get All Regions from Web API
                 var client = httpClientFactory.CreateClient();
 
-                var httpResponseMessage = await client.GetAsync("https://localhost:7203/api/Posts");
+                var httpResponseMessage = await client.GetAsync($"{apiSettings.Value.ProductionUrl}/Posts");
 
                 httpResponseMessage.EnsureSuccessStatusCode();
 
@@ -43,13 +46,13 @@ namespace Blog.UI.Controllers
         {
             var client = httpClientFactory.CreateClient();
 
-            var postResponse = await client.GetFromJsonAsync<PostDto>($"https://localhost:7203/api/Posts/{id.ToString()}");
+            var postResponse = await client.GetFromJsonAsync<PostDto>($"{apiSettings.Value.ProductionUrl}/Posts/{id.ToString()}");
 
             List<CommentDto> commentsResponse = new List<CommentDto>();
             try
             {
                 //Get All Regions from Web API
-                var httpResponseMessage = await client.GetAsync($"https://localhost:7203/api/Comments/GetByPostId/{id.ToString()}");
+                var httpResponseMessage = await client.GetAsync($"{apiSettings.Value.ProductionUrl}/Comments/GetByPostId/{id.ToString()}");
 
                 httpResponseMessage.EnsureSuccessStatusCode();
 
@@ -83,7 +86,7 @@ namespace Blog.UI.Controllers
             var httpRequestMessage = new HttpRequestMessage()
             {
                 Method = HttpMethod.Post,
-                RequestUri = new Uri("https://localhost:7203/api/Posts"),
+                RequestUri = new Uri($"{apiSettings.Value.ProductionUrl}/Posts"),
                 Content = new StringContent(JsonSerializer.Serialize(model), Encoding.UTF8, "application/json")
             };
 
@@ -105,7 +108,7 @@ namespace Blog.UI.Controllers
         {
             var client = httpClientFactory.CreateClient();
 
-            var response = await client.GetFromJsonAsync<PostDto>($"https://localhost:7203/api/Posts/{id.ToString()}");
+            var response = await client.GetFromJsonAsync<PostDto>($"{apiSettings.Value.ProductionUrl}/Posts/{id.ToString()}");
 
             if (response is not null)
             {
@@ -123,7 +126,7 @@ namespace Blog.UI.Controllers
             var httpRequestMessage = new HttpRequestMessage()
             {
                 Method = HttpMethod.Put,
-                RequestUri = new Uri($"https://localhost:7203/api/Posts/{request.PostId}"),
+                RequestUri = new Uri($"{apiSettings.Value.ProductionUrl}/Posts/{request.PostId}"),
                 Content = new StringContent(JsonSerializer.Serialize(request), Encoding.UTF8, "application/json")
             };
 
@@ -147,7 +150,7 @@ namespace Blog.UI.Controllers
             {
                 var client = httpClientFactory.CreateClient();
 
-                var httpResponseMessage = await client.DeleteAsync($"https://localhost:7203/api/Posts/{request.PostId}");
+                var httpResponseMessage = await client.DeleteAsync($"{apiSettings.Value.ProductionUrl}/Posts/{request.PostId}");
                 httpResponseMessage.EnsureSuccessStatusCode();
 
                 return RedirectToAction("Index", "Posts");

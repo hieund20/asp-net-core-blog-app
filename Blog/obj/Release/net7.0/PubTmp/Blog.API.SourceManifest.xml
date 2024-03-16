@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
   <IisApp path="D:\Blog\Blog\Blog\obj\Release\net7.0\PubTmp\Out\" />
+  <dbfullsql path="D:\Blog\Blog\Blog\obj\Release\net7.0\PubTmp\EFSQLScripts\Blog.API.Data.BlogAuthDBContext.sql" />
+  <dbfullsql path="D:\Blog\Blog\Blog\obj\Release\net7.0\PubTmp\EFSQLScripts\Blog.API.Data.BlogDBContext.sql" />
 </sitemanifest>
