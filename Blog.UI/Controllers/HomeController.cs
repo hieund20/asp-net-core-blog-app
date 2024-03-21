@@ -17,15 +17,37 @@ namespace Blog.UI.Controllers
             this.apiSettings = apiSettings;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
             var client = httpClientFactory.CreateClient();
+
+            //Get Product Total Count
+            PaginationModel pagination = new PaginationModel();
+            try
+            {
+                var totalResponse = await client.GetFromJsonAsync<int>($"{apiSettings.Value.ProductionUrl}/Posts/Total");
+                pagination.TotalPage = (int)Math.Ceiling((decimal)totalResponse / 6);
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            //Set Current Page of Pagination
+            if (page == 0)
+            {
+                pagination.CurrentPage = 1;
+            }
+            else if (page > pagination.TotalPage)
+            {
+                pagination.CurrentPage = pagination.TotalPage;
+            }
 
             //Get Post List
             List<PostDto> response = new List<PostDto>();
             try
             {
-                var httpResponseMessage = await client.GetAsync($"{apiSettings.Value.ProductionUrl}/Posts");
+                var httpResponseMessage = await client.GetAsync($"{apiSettings.Value.ProductionUrl}/Posts?pageNumber={pagination.CurrentPage}&pageSize=6");
 
                 httpResponseMessage.EnsureSuccessStatusCode();
 
@@ -37,7 +59,31 @@ namespace Blog.UI.Controllers
 
             }
 
-            return View(response);
+            //Get Post's PostTags
+            try
+            {
+                foreach (var post in response)
+                {
+                    List<PostTagDto> postTagsResponse = new List<PostTagDto>();
+                    var httpResponseMessage = await client.GetAsync($"{apiSettings.Value.ProductionUrl}/PostTags/{post.PostId}");
+                    httpResponseMessage.EnsureSuccessStatusCode();
+                    postTagsResponse.AddRange(await httpResponseMessage.Content.ReadFromJsonAsync<IEnumerable<PostTagDto>>());
+
+                    post.PostTags = postTagsResponse;
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            var viewData = new HomeViewModel<List<PostDto>, PaginationModel>
+            {
+                Posts = response,
+                Pagination = pagination
+            };
+
+            return View(viewData);
         }
 
         public IActionResult Privacy()

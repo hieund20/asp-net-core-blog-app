@@ -19,6 +19,10 @@ namespace Blog.API.Mappings
             CreateMap<AddCommentRequestDto, Comment>().ReverseMap();
 
             CreateMap<Tag, TagDto>().ReverseMap();
+            CreateMap<AddTagRequestDto, Tag>().ReverseMap();
+
+            CreateMap<PostTag, PostTagDto>().ReverseMap();
+            CreateMap<AddPostTagRequestDto, PostTag>().ReverseMap();
         }
     }
 }

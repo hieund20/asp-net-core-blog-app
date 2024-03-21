@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Blog.API.Models.DTO;
+using Microsoft.AspNetCore.Identity;
 
 namespace Blog.API.Models.Domain
 {

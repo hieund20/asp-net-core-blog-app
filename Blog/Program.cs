@@ -26,6 +26,7 @@ builder.Services.AddScoped<ITagRepository, SQLTagRepository>();
 builder.Services.AddScoped<ICommentRepository, SQLCommentRepository>();
 builder.Services.AddScoped<ITokenRepository, TokenRepository>();
 builder.Services.AddScoped<IUserRepository, SQLUserRepository>();
+builder.Services.AddScoped<IPostTagRepository, SQLPostTagRepository>();
 
 builder.Services.AddAutoMapper(typeof(AutoMapperProfies));
 

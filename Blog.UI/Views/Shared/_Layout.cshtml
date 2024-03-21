@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Blog.UI</title>
+    <title>@ViewData["Title"] - Hieunotes</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Blog.UI.styles.css" asp-append-version="true" />
@@ -37,6 +37,8 @@
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item">Hồ sơ người dùng</a></li>
                                     <li><a class="dropdown-item" asp-controller="Posts" asp-action="Index">Quản lý bài viết</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Tags" asp-action="Index">Quản lý nhãn dán</a></li>
+                                    <li><a class="dropdown-item" asp-controller="PostTags" asp-action="Index">Quản lý bài viết - nhãn dán</a></li>
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" asp-controller="Auth" asp-action="Logout">Đăng xuất</a></li>
                                 </ul>

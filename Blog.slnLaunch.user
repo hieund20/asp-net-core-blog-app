@@ -4,11 +4,13 @@
     "Projects": [
       {
         "Name": "Blog\\Blog.API.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": ""
       },
       {
         "Name": "Blog.UI\\Blog.UI.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": ""
       }
     ]
   }

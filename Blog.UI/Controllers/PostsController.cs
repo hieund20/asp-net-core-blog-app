@@ -31,7 +31,6 @@ namespace Blog.UI.Controllers
                 httpResponseMessage.EnsureSuccessStatusCode();
 
                 response.AddRange(await httpResponseMessage.Content.ReadFromJsonAsync<IEnumerable<PostDto>>());
-
             }
             catch (Exception ex)
             {

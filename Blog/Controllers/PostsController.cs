@@ -21,11 +21,32 @@ namespace Blog.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] string? filterOn,
+                                                [FromQuery] string? filterQuery,
+                                                [FromQuery] string? sort,
+                                                [FromQuery] bool? isAscending,
+                                                [FromQuery] int pageNumber = 1,
+                                                [FromQuery] int pageSize = 1000)
         {
-            var postsDomainModel = await postRepository.GetAllAsync();
+            var postsDomainModel = await postRepository.GetAllAsync(filterOn, filterQuery, sort, isAscending ?? true, pageNumber, pageSize);
 
             return Ok(mapper.Map<List<PostDto>>(postsDomainModel));
+        }
+
+        [HttpGet]
+        [Route("Total")]
+        public async Task<IActionResult> GetTotal()
+        {
+            try
+            {
+                int totalPost = await postRepository.GetTotalAsync();
+                return Ok(totalPost);
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
         [HttpPost]

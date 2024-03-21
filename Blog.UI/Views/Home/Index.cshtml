@@ -1,17 +1,27 @@
 ﻿@using Microsoft.AspNetCore.Html;
-@model IEnumerable<Blog.UI.Models.DTO.PostDto>
+@model Blog.UI.Models.HomeViewModel<List<Blog.UI.Models.DTO.PostDto>, Blog.UI.Models.PaginationModel>
 
 @{
 }
 
 <div class="posts-contaner d-flex flex-wrap gap-5">
-    @foreach (var post in Model)
+    @foreach (var post in Model.Posts)
     {
         <div class="card" style="width: 30%; max-height: 250px;">
             <div class="card-body">
                 <h5 class="card-title">@post.Title</h5>
                 <h6 class="card-subtitle mb-2 text-muted">@post.CreatedDate.ToLocalTime()</h6>
-                <p class="card-text">@Truncate(@post.Content, 100)</p>
+                <div>
+                    @if (post.PostTags != null && post.PostTags.Any())
+                    {
+                        @foreach (var postTag in post.PostTags)
+                        {
+                            <span class="badge bg-dark">@postTag?.Tag?.Name</span>
+                        }
+                    }
+                </div>
+                @* Cần fix @post.Content để show content thay vì HTML raw *@
+                <p class="card-text">@Truncate(@post.Content, 100)</p> 
                 <a class="card-link" 
                    asp-controller="Posts"
                    asp-action="Detail"
@@ -20,6 +30,17 @@
         </div>
     }
 </div>
+
+<nav aria-label="Page navigation example" class="mt-5 d-flex justify-content-center">
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="@Url.Action("Index", "Home", new { page = Model.Pagination.CurrentPage - 1 })">&laquo;</a></li>
+        @for (int index = 1; index <= Model.Pagination.TotalPage; index++)
+        {
+            <li class="page-item"><a class="page-link" href="@Url.Action("Index", "Home", new { page = index })">@index</a></li>
+        }
+        <li class="page-item"><a class="page-link" href="@Url.Action("Index", "Home", new { page = Model.Pagination.CurrentPage + 1 })">&raquo;</a></li>
+    </ul>
+</nav>
 
 
 @functions {

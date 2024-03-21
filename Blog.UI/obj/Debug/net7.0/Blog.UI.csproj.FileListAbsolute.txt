@@ -28,3 +28,4 @@ D:\Blog\Blog\Blog.UI\obj\Debug\net7.0\refint\Blog.UI.dll
 D:\Blog\Blog\Blog.UI\obj\Debug\net7.0\Blog.UI.pdb
 D:\Blog\Blog\Blog.UI\obj\Debug\net7.0\Blog.UI.genruntimeconfig.cache
 D:\Blog\Blog\Blog.UI\obj\Debug\net7.0\ref\Blog.UI.dll
+D:\Blog\Blog\Blog.UI\obj\Debug\net7.0\Blog.UI.sourcelink.json

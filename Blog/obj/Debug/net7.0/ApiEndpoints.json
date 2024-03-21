@@ -212,7 +212,38 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "filterOn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filterQuery",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isAscending",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -279,6 +310,126 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.PostsController",
+    "Method": "GetTotal",
+    "RelativePath": "api/Posts/Total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.PostTagsController",
+    "Method": "GetAll",
+    "RelativePath": "api/PostTags",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.PostTagsController",
+    "Method": "Create",
+    "RelativePath": "api/PostTags",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addPostTagRequest",
+        "Type": "Blog.API.Models.DTO.AddPostTagRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.PostTagsController",
+    "Method": "Delete",
+    "RelativePath": "api/PostTags",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "tagId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.PostTagsController",
+    "Method": "GetAllByPostId",
+    "RelativePath": "api/PostTags/{postId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.PostTagsController",
+    "Method": "GetById",
+    "RelativePath": "api/PostTags/{postId}/{tagId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "tagId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Blog.API.Controllers.PostTagsController",
+    "Method": "Update",
+    "RelativePath": "api/PostTags/{postId}/{tagId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "tagId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatePostTagRequest",
+        "Type": "Blog.API.Models.DTO.UpdatePostTagRequestDto",
         "IsRequired": true
       }
     ],

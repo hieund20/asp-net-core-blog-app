@@ -26,11 +26,21 @@
 </form>
 
 <div class="text-center">
-    
-    <script src="~/assets/vendor/ckeditor5-build-classic-41.1.0/ckeditor5-build-classic/ckeditor.js"></script>
+    <script src="~/assets/vendor/ckeditor5-41.2.0-o5j5qkhs2miq//build/ckeditor.js"></script>
     <script>
         ClassicEditor
-            .create(document.querySelector('#editor'))
+            .create(document.querySelector('#editor'), {
+                codeBlock: {
+                    languages: [
+                        { language: 'css', label: 'CSS' },
+                        { language: 'plaintext', label: 'Plain text', class: '' },
+                        { language: 'html', label: 'HTML' },
+                        { language: 'php', label: 'PHP', class: 'php-code' },
+                        { language: 'javascript', label: 'JavaScript', class: 'js javascript js-code' },
+                        { language: 'python', label: 'Python' }
+                    ]
+                }
+            })
             .catch(error => {
                 console.error(error);
             });

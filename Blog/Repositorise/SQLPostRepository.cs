@@ -37,15 +37,51 @@ namespace Blog.API.Repositorise
             return existingPost;
         }
 
-        public async Task<List<Post>> GetAllAsync()
+        public async Task<List<Post>> GetAllAsync(string? filterOn = null, 
+                                                string? filterQuery = null, 
+                                                string? sortBy = null, 
+                                                bool isAscending = true, 
+                                                int pageNumber = 1, 
+                                                int pageSize = 6)
         {
-            var posts = await dBContext.Posts.ToListAsync();
-            return posts;
+            var posts = dBContext.Posts.AsQueryable();
+
+            // Filtering
+            if (string.IsNullOrWhiteSpace(filterOn) == false && string.IsNullOrWhiteSpace(filterQuery) == false)
+            {
+                if (filterOn.Equals("Title", StringComparison.OrdinalIgnoreCase))
+                {
+                    posts = posts.Where(x => x.Title.Contains(filterQuery));
+                }
+            }
+
+            // Sorting
+            if (string.IsNullOrWhiteSpace(sortBy) == false)
+            {
+                if (sortBy.Equals("Title", StringComparison.OrdinalIgnoreCase))
+                {
+                    posts = isAscending ? posts.OrderBy(x => x.Title) : posts.OrderByDescending(x => x.Title);
+                }
+                else if (sortBy.Equals("CreatedDate", StringComparison.OrdinalIgnoreCase))
+                {
+                    posts = isAscending ? posts.OrderBy(x => x.CreatedDate) : posts.OrderByDescending(x => x.CreatedDate);
+                }
+            }
+
+            // Pagination
+            var skipResults = (pageNumber - 1) * pageSize;
+
+            return await posts.Skip(skipResults).Take(pageSize).ToListAsync();
         }
 
         public  async Task<Post?> GetByIdAsync(Guid id)
         {
             return await dBContext.Posts.FirstOrDefaultAsync(x => x.PostId == id);
+        }
+
+        public async Task<int> GetTotalAsync()
+        {
+            return await dBContext.Posts.CountAsync();
         }
 
         public async Task<Post?> UpdateAsync(Guid id, Post post)
