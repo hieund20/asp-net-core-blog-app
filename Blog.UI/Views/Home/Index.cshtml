@@ -10,7 +10,7 @@
         <div class="card" style="width: 30%; max-height: 250px;">
             <div class="card-body">
                 <h5 class="card-title">@post.Title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">@post.CreatedDate.ToLocalTime()</h6>
+                <h6 class="card-subtitle mb-2 text-muted">@post.CreatedDate.ToString("dd/MM/yyyy HH:mm:ss")</h6>
                 <div>
                     @if (post.PostTags != null && post.PostTags.Any())
                     {

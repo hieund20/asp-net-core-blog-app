@@ -7,7 +7,7 @@
 
 <div>
     <h3>@Model.PostDetail.Title</h3>
-    <p>@Model.PostDetail.CreatedDate</p>
+    <p>@Model.PostDetail.CreatedDate.ToString("dd/MM/yyyy HH:mm:ss")</p>
     <div>
         @if (@Model.PostTags != null && @Model.PostTags.Any())
         {
