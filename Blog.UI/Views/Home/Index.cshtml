@@ -21,7 +21,7 @@
                     }
                 </div>
                 @* Cần fix @post.Content để show content thay vì HTML raw *@
-                <p class="card-text">@Truncate(@post.Content, 100)</p> 
+               @*  <p class="card-text">@Truncate(@post.Content, 100)</p>  *@
                 <a class="card-link" 
                    asp-controller="Posts"
                    asp-action="Detail"

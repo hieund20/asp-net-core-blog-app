@@ -62,10 +62,25 @@ namespace Blog.UI.Controllers
             {
             }
 
-            var viewData = new PostCommentsView<PostDto, List<CommentDto>>
+            List<PostTagDto> postTagsResponse = new List<PostTagDto>();
+            try
+            {
+                var httpResponseMessage = await client.GetAsync($"{apiSettings.Value.ProductionUrl}/PostTags/{id.ToString()}");
+                
+                httpResponseMessage.EnsureSuccessStatusCode();
+                
+                postTagsResponse.AddRange(await httpResponseMessage.Content.ReadFromJsonAsync<IEnumerable<PostTagDto>>());
+            }
+            catch (Exception ex)
+            {
+
+            }
+            
+            var viewData = new PostDetailViewModel<PostDto, List<CommentDto>, List<PostTagDto>>
             {
                 PostDetail = postResponse,
-                Comments = commentsResponse
+                Comments = commentsResponse,
+                PostTags = postTagsResponse
             };
 
             return View(viewData);

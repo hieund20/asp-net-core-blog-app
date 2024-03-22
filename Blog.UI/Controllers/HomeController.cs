@@ -38,7 +38,7 @@ namespace Blog.UI.Controllers
             {
                 pagination.CurrentPage = 1;
             }
-            else if (page > pagination.TotalPage)
+            else if (page >= pagination.TotalPage)
             {
                 pagination.CurrentPage = pagination.TotalPage;
             }

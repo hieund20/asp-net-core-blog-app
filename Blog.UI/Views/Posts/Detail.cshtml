@@ -2,17 +2,26 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 
-@model Blog.UI.Models.PostCommentsView<Blog.UI.Models.DTO.PostDto, List<Blog.UI.Models.DTO.CommentDto>>
+@model Blog.UI.Models.PostDetailViewModel<Blog.UI.Models.DTO.PostDto, List<Blog.UI.Models.DTO.CommentDto>, List<Blog.UI.Models.DTO.PostTagDto>>
 
 
 <div>
     <h3>@Model.PostDetail.Title</h3>
     <p>@Model.PostDetail.CreatedDate</p>
+    <div>
+        @if (@Model.PostTags != null && @Model.PostTags.Any())
+        {
+            @foreach (var postTag in @Model.PostTags)
+            {
+                <span class="badge bg-dark">@postTag?.Tag?.Name</span>
+            }
+        }
+    </div>
 
     <p>@Html.Raw(@Model.PostDetail.Content)</p>
 </div>
 
-<div>
+<div class="mt-5">
     @await Html.PartialAsync("~/Views/Comments/_Add.cshtml", new AddCommentViewModel { PostId = Model.PostDetail.PostId })
 </div>
 
