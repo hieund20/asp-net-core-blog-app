@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "snkHh2Du36Ji+S6KQHN8WMK+qJ0sG39TGVwa9Ot6Ufo=",
+  "Hash": "m/BdbjZtnotxe573dJ3/2H8DVRkpHtkRXE85lntQPDk=",
   "Source": "Blog.UI",
   "BasePath": "_content/Blog.UI",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Blog\\Blog\\Blog.UI\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\Blog.UI.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\images\\hieunotes_logo.jpg",
+      "SourceId": "Blog.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\",
+      "BasePath": "_content/Blog.UI",
+      "RelativePath": "assets/images/hieunotes_logo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\hieunotes_logo.jpg"
     },
     {
       "Identity": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-41.2.0-o5j5qkhs2miq\\build\\ckeditor.d.ts",

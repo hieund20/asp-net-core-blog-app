@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Blog.UI.bundle.scp.css"
     },
     {
+      "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\images\\hieunotes_logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hieunotes_logo.jpg"
+    },
+    {
       "Id": "D:\\Blog\\Blog\\Blog.UI\\wwwroot\\assets\\vendor\\ckeditor5-41.2.0-o5j5qkhs2miq\\LICENSE.md",
       "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5-41.2.0-o5j5qkhs2miq\\LICENSE.md"
     },
