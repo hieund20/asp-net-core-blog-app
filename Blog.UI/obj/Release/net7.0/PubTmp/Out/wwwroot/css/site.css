@@ -29,6 +29,18 @@ body {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+pre:has(> code[class*="language-"]) {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    border: 1px solid #c4c4c4;
+    padding: 8px;
+}
+
+code[class*="language-"] {
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
     /* Home */
