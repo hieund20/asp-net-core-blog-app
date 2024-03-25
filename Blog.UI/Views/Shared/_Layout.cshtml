@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Hieunotes</title>
+    <link rel="icon" href="./assets/images/hieunotes_logo.jpg" type="image/icon type">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Blog.UI.styles.css" asp-append-version="true" />
@@ -12,7 +13,9 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Hieunotes</a>
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="./assets/images/hieunotes_logo.jpg" style="height: 25px;" alt="hieunotes-logo"/>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
